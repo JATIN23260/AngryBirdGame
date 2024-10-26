@@ -2,7 +2,7 @@
 <br>
 <h2>Members</h2>
 <br>
-<h2>Jatin Kumar(2023260></h2>
+<h2>Jatin Kumar(2023260)</h2>
 <br>
 <h2>Avi Yashvardhan Mattoo(2022120)</h2>
 A [libGDX](https://libgdx.com/) project generated with [gdx-liftoff](https://github.com/libgdx/gdx-liftoff).
