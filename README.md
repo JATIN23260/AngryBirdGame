@@ -1,5 +1,10 @@
-# AngryBird
-
+# <h1><i><b>Angry Bird Game</b> </i></h1>
+<br>
+<h2>Members</h2>
+<br>
+<h2>Jatin Kumar(2023260></h2>
+<br>
+<h2>Avi Yashvardhan Mattoo(2022120)</h2>
 A [libGDX](https://libgdx.com/) project generated with [gdx-liftoff](https://github.com/libgdx/gdx-liftoff).
 
 This project was generated with a template including simple application launchers and an empty `ApplicationListener` implementation.
