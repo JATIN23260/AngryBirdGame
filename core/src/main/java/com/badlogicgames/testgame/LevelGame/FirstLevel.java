@@ -83,10 +83,10 @@ public class FirstLevel implements Screen {
         smallPig2 = new SmallPig();
         mediumPig = new MediumPig();
 
-        smallPig.SmallPigSprite.setSize(40,40);
-        smallPig1.SmallPigSprite.setSize(40,40);
-        smallPig2.SmallPigSprite.setSize(40,40);
-        mediumPig.MediumPigSprite.setSize(60,60);
+        smallPig.imgSprite.setSize(40,40);
+        smallPig1.imgSprite.setSize(40,40);
+        smallPig2.imgSprite.setSize(40,40);
+        mediumPig.imgSprite.setSize(60,60);
         // Sling short creation
         slingShort = new SlingShort();
         slingShort.SlingShortSprite.setSize(55,138);
@@ -251,17 +251,17 @@ public class FirstLevel implements Screen {
         woodsBlocks1.DownWoodenSprite.draw(game.batch);
 
         // Small pigs implementation
-        smallPig.SmallPigSprite.setPosition(gameport.getWorldWidth()/2 + 265,722);
-        smallPig.SmallPigSprite.draw(game.batch);
-        smallPig1.SmallPigSprite.setPosition(gameport.getWorldWidth()/2 + 142,522);
-        smallPig1.SmallPigSprite.draw(game.batch);
-        smallPig2.SmallPigSprite.setPosition(gameport.getWorldWidth()/2 + 395,522);
-        smallPig2.SmallPigSprite.draw(game.batch);
+        smallPig.imgSprite.setPosition(gameport.getWorldWidth()/2 + 265,722);
+        smallPig.imgSprite.draw(game.batch);
+        smallPig1.imgSprite.setPosition(gameport.getWorldWidth()/2 + 142,522);
+        smallPig1.imgSprite.draw(game.batch);
+        smallPig2.imgSprite.setPosition(gameport.getWorldWidth()/2 + 395,522);
+        smallPig2.imgSprite.draw(game.batch);
 
 
         // Medium pig implementation
-        mediumPig.MediumPigSprite.setPosition(gameport.getWorldWidth()/2 + 260,522);
-        mediumPig.MediumPigSprite.draw(game.batch);
+        mediumPig.imgSprite.setPosition(gameport.getWorldWidth()/2 + 260,522);
+        mediumPig.imgSprite.draw(game.batch);
 
         game.batch.end();
     }

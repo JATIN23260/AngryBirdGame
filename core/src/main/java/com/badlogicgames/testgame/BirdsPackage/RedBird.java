@@ -4,11 +4,7 @@ import com.badlogic.gdx.audio.Music;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Sprite;
 
-public class RedBird implements Birds {
-    private Texture BirdImage;
-    public Sprite BirdSprite;
-    private Integer NumberOfHits;
-    private Music MyMusic;
+public class RedBird extends Birds{
     public RedBird()
     {
         this.BirdImage = new Texture("redBird.png");

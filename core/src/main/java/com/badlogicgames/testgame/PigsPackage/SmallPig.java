@@ -3,16 +3,14 @@ package com.badlogicgames.testgame.PigsPackage;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Sprite;
 
-public class SmallPig {
-    private Texture SmallPigImg;
-    public Sprite SmallPigSprite;
+public class SmallPig extends Pigs {
     public SmallPig()
     {
-        this.SmallPigImg = new Texture("SmallPig.png");
-        this.SmallPigSprite = new Sprite(SmallPigImg);
+        this.img= new Texture("SmallPig.png");
+        this.imgSprite = new Sprite(img);
     }
 
     public Texture getSprite() {
-        return SmallPigImg;
+        return this.img;
     }
 }

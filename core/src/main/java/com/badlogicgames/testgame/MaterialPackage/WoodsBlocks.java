@@ -3,7 +3,7 @@ package com.badlogicgames.testgame.MaterialPackage;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Sprite;
 
-public class WoodsBlocks {
+public class WoodsBlocks implements Material{
     private Texture UpWoodenBlock;
     public Sprite UpWoodenSprite;
     private Texture DownWoodenBlock;
