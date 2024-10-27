@@ -61,7 +61,8 @@ public class FirstLevel implements Screen {
     private WoodsBlocks woodsBlocks9;
     private WoodsBlocks woodsBlocks10;
     private WoodsBlocks woodsBlocks11;
-
+    private Texture ScoreCount;
+    private Sprite ScoreSprite;
     // SlingShort
     private SlingShort slingShort;
 
@@ -99,7 +100,10 @@ public class FirstLevel implements Screen {
         woodsBlocks5  = new WoodsBlocks();
         woodsBlocks6  = new WoodsBlocks();
         woodsBlocks7  = new WoodsBlocks();
-
+        // Score Count
+        ScoreCount = new Texture("ScoreCount.png");
+        ScoreSprite = new Sprite(ScoreCount);
+        ScoreSprite.setSize(350,80);
 
         woodsBlocks.UpWoodenSprite.setSize(190,220);
         woodsBlocks1.UpWoodenSprite.setSize(190,220);
@@ -212,6 +216,9 @@ public class FirstLevel implements Screen {
         redBird3.BirdSprite.setPosition(400,323);
         redBird3.BirdSprite.draw(game.batch);
 
+        // ScoreCount
+        ScoreSprite.setPosition(gameport.getWorldWidth() - 330,gameport.getWorldHeight() - 100);
+        ScoreSprite.draw(game.batch);
         // ground floor level first upward which is left to 2nd upward
         woodsBlocks.UpWoodenSprite.setPosition(gameport.getWorldWidth()/2 + 70,312);
         woodsBlocks.UpWoodenSprite.draw(game.batch);
